@@ -1,6 +1,5 @@
-import express from "express";
-import * as server from "./server.js";
-const PORT = 3000;
+var express = require('express');
+var server = require('./server.js');
 
 const app = express();
 

@@ -4,7 +4,7 @@
   "description": "An REST API for the Zombie Survival Social Network",
   "main": "index.js",
   "scripts": {
-    "start": "babel-node index.js",
+    "start": "node index.js",
     "test": "test"
   },
   "keywords": [
@@ -14,9 +14,5 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.14.0"
-  },
-  "devDependencies": {
-    "babel-cli": "^6.18.0",
-    "babel-preset-latest": "^6.16.0"
   }
 }
