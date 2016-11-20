@@ -1,0 +1,24 @@
+{
+  "Survivors": [
+    {
+      "name": "Rick",
+      "age": "40",
+      "gender": "Male",
+      "lastLocation": {
+        "lat": 534.896,
+        "long": 9863.54
+      },
+      "items": null
+    },
+    {
+      "name": "Shane",
+      "age": "40",
+      "gender": "Male",
+      "lastLocation": {
+        "lat": 534.896,
+        "long": 9863.54
+      },
+      "items": null
+    }
+  ]
+}

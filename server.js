@@ -1,7 +1,7 @@
 var express = require('express');
 var bodyParser = require('body-parser')
 var routes = require('./routes.js');
-var SurvivorHandler = require('./handlers/survivor.js');
+var SurvivorHandler = require('./handlers/SurvivorHandler.js');
 const PORT = 3000;
 
 const app = express();
