@@ -1,10 +1,15 @@
 var express = require('express');
+var cors = require('cors')
+var morgan = require('morgan');
 var bodyParser = require('body-parser')
 var routes = require('./routes.js');
 var SurvivorHandler = require('./handlers/SurvivorHandler.js');
 const PORT = 3000;
 
 const app = express();
+app.use(cors());
+app.use(express.static('public'));
+app.use(morgan('dev'));
 app.use(bodyParser.json())
 
 var handlers = {
